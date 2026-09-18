@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://ctso2dr4xlaoi"]
 
-[ext_resource type="Texture2D" uid="uid://besaoknsp1s7w" path="res://textures/tps_demo.png" id="1_o5qli"]
+[ext_resource type="Texture2D" uid="uid://qspw18f8uuxw" path="res://textures/tps_demo_2.webp" id="1_0wfyh"]
 [ext_resource type="Material" uid="uid://dild1px1fihip" path="res://materials/postpo_retro.tres" id="2_0wfyh"]
 
 [node name="Node3D" type="Node3D" unique_id=2102282520]
@@ -13,7 +13,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("1_o5qli")
+texture = ExtResource("1_0wfyh")
 expand_mode = 2
 
 [node name="CanvasPostpo" type="CanvasLayer" parent="." unique_id=595803555]

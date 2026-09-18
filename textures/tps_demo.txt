@@ -1,1 +1,5 @@
+Godot TPS Demo
+Copyright (c) 2018 Juan Linietsky, Fernando Miguel Calabró
+Distributed under the terms of the Creative Commons Attribution License version 3.0 (CC-BY 3.0)
+
 https://github.com/godotengine/tps-demo
