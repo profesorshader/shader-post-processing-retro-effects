@@ -5,7 +5,7 @@ shader_type canvas_item;
 
 // choose only one dithering method! (optional)
 #define USE_DITHERING_ORDERED 0        // orthered dithering 
-#define USE_DITHERING_NOISE_TEXTURE 0  // noise texture based dithering
+#define USE_DITHERING_NOISE_TEXTURE 1  // noise texture based dithering
 
 // choose only one posterization method! (optional)
 #define USE_POSTERIZE_RGB 0 // posterize RGB values
@@ -20,7 +20,7 @@ uniform float effect_strength : hint_range(0.0, 1.0) = 1.0;
 uniform float gamma_adjust : hint_range(1.0, 4.0) = 2.2; 
 
 #if USE_LOW_RESOLUTION
-uniform float desired_screen_width : hint_range(80.0, 1024.0) = 640.0; 
+uniform float desired_screen_width : hint_range(16.0, 1024.0) = 640.0; 
 #endif
 
 #if USE_DITHERING_ORDERED 
