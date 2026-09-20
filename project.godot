@@ -10,13 +10,15 @@ config_version=5
 
 [application]
 
-config/name="Shader Post-Production Retro Effects"
+config/name="Shader Post-Processing Retro Effects"
 run/main_scene="uid://ctso2dr4xlaoi"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 
 [display]
 
+window/size/viewport_width=1280
+window/size/viewport_height=720
 window/size/mode=3
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"

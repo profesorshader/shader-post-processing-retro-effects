@@ -4,7 +4,7 @@ shader_type canvas_item;
 #define USE_LOW_RESOLUTION 1
 
 // choose only one dithering method! (optional)
-#define USE_DITHERING_ORDERED 0        // orthered dithering 
+#define USE_DITHERING_ORDERED 0        // ordered dithering 
 #define USE_DITHERING_NOISE_TEXTURE 1  // noise texture based dithering
 
 // choose only one posterization method! (optional)
